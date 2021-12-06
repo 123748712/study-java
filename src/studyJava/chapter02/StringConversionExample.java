@@ -20,6 +20,7 @@ public class StringConversionExample {
 		String str2 = 10 + "2" + 8; // 10과 문자열 "2" 가 계산된 후 다시한번 문자열 102와 숫자 8이 계산된다.
 		System.out.println("str2 : " + str2);
 
+		
 		// 2. 문자열을 기본타입으로 강제 타입 변환
 
 		// String -> byte
