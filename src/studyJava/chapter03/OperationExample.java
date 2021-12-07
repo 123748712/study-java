@@ -10,6 +10,7 @@ public class OperationExample {
 		// but, 우선순위가 낮은 연산이여도 (괄호) 안에 있다면 가장 우선이다.
 
 		
+		
 		// 2. 연산자의 종류
 
 		// x++; -> 단항 연산자
@@ -52,6 +53,21 @@ public class OperationExample {
 		int value1 = 5;
 		int value2 = 2;
 		
-		System.out.println(value1%value2);
+		System.out.println(value1%value2); // 5를 2로 나누면 나머지는 1이 남아 1 출력
+		
+		// 비교 연산자 (< , > , <= , >= , == , !=)
+		int num1 = 10;
+		int num2 = 10;	
+		boolean result6 = (num1 == num2); // true
+		boolean result7 = (num1 != num2); // false
+		
+		// 논리 연산자 (&& , || , & , | , ^ , !)
+		
+		// && 논리곱 (AND)
+		// true && true = true
+		// true && false = false 둘중 하나라도 false 면 false
+		
+		// || 논리합 (OR)
+		// true || false = true 둘중 하나라도 true 면 true
 	}
 }
