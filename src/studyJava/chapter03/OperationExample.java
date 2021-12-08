@@ -69,5 +69,26 @@ public class OperationExample {
 		
 		// || 논리합 (OR)
 		// true || false = true 둘중 하나라도 true 면 true
+		
+		
+		// 대입 연산자 (= , += , -= , *= , /= , %=)
+		// 오른쪽 피연산자의 값을 왼쪽 피연산자인 변수에저장한다.
+		
+		int temp = 0;
+		temp += 10; // 0 + 10 = 10
+		temp -= 5; // 10 - 5 = 5
+		temp *= 3; // 5 * 3 = 15
+		temp /= 5; // 5 / 3 = 5
+		temp %= 3; // 3 % 3 = 0
+		
+		
+		// 삼항 연산자
+		// 조건식(피연산자 2) ? 피연산자 2 : 피연산자 3) 를 연산하여
+		// true가 나오면 피연산자 2의 값이, false가 나오면 피연산자 3 의 값이 된다.
+		
+		int score = 85;
+		char grade = (score > 90) ? 'A' : ((score > 80) ? 'B' : 'C');
+		System.out.println(score + "점은 " + grade + "등급입니다.");
+		
 	}
 }
