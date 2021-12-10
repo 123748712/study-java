@@ -18,6 +18,7 @@ public class ForExample {
 		System.out.println(sum); // 1부터 10까지 전부 더한다.
 		
 		
+		
 		// 중첩 for문
 		
 		// 구구단 출력 예제
@@ -27,7 +28,6 @@ public class ForExample {
 			for (int n = 1; n <=9; n++) {
 				System.out.println(m + "x" + n + "=" + m*n);
 			}
-			
 		}
 	}
 }
