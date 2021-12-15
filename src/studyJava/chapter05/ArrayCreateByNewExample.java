@@ -3,7 +3,7 @@ package studyJava.chapter05;
 public class ArrayCreateByNewExample {
 	public static void main(String[] args) {
 		
-		// 1. new 연산자로 배열 생성
+		//  new 연산자로 배열 생성
 		// 타입[] 변수 = new 타입[길이];
 		
 		int[] arr1 = new int[3]; // int[] arr1 은 stack 영역에, new int[5] 는 heap 영역에 저장된다.
