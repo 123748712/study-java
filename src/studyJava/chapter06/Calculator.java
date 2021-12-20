@@ -8,7 +8,7 @@ public class Calculator {
 		System.out.println("전원을 켭니다.");
 	}
 
-	int plus(int x, int y) {
+	static int plus(int x, int y) { // static 선언으로 어느 클래스에서 사용하던 메소드를 공유한다.
 		int result = x + y;
 		return result;
 	}
