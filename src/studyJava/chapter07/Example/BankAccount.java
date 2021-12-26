@@ -1,7 +1,7 @@
 package studyJava.chapter07.Example;
 
-public class BankAccount extends Bank {
-	private int balance;
+public class BankAccount {
+	protected int balance;
 
 	public BankAccount(int balance) {
 		this.balance = balance;
@@ -32,5 +32,9 @@ public class BankAccount extends Bank {
 		} else {
 			return false;
 		}
+	}
+
+	public String toString() {
+		return Integer.toString(balance);
 	}
 }
