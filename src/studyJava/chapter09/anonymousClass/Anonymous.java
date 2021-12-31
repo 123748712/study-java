@@ -19,5 +19,6 @@ public class Anonymous {
 		};
 		person2.wake();
 		// person2.work(); person의 주솟값을 갖고 있기 때문에 work는 갖고 있지 않아 오류가 난다.
+		// 사용하는 이유는 일회성이 가장 크다. 한번 만들면서 실행한 후 버리기 위함.
 	}
 }
