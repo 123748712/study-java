@@ -24,8 +24,10 @@ public class ExceptionExample {
 			System.out.println(x + " + " + y + " = " + result);
 		} catch (InputMismatchException e) { // 에러의 이름을 적어준다.
 			System.out.println("정수가 아닙니다."); // 에러가 떴을시 어떻게 할지를 적어준다.
+		} finally {
+			System.out.println("finally 실행"); // 오류가 발생하건, 발생하지 않았건 공통으로 수행해야할 코드를 사용한다.
 		}
-		
+
 		/*
 		 * 위의 구문의 경우 정수를 입력한다면 에러는 발생하지 않는다. 하지만 소수점값을 입력하는 순간
 		 * java.util.InputMismatchException 에러가 뜬다. 그 부분을 막기 위해 try - catch 문을 사용해 오류가
