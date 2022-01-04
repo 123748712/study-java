@@ -10,7 +10,7 @@ public class ArrayListExample {
 		list.add("Java");			// String 객체를 저장
 		list.add("JDBC");
 		list.add("Servlet/JSP");
-		list.add(2, "Database");
+		list.add(2, "Database");  // 앞의 숫자는 인덱스의 번호를 지정하는 것. 먼저 add 해도 2번에 Database가 저장되고 밀려남.
 		list.add("iBATIS");
 
 		int size = list.size(); // 저장된 총 객체 수 얻기
