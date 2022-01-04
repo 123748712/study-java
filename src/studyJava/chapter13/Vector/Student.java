@@ -39,11 +39,11 @@ public class Student {
 
 	}
 
-	@Override
+	@Override // 재정의 되어있지 않는다면 동일한 객체를 추가해도 동일하다고 인식하지 못한다. 동일한 객체를 비교해서 같다고 판단해주는 역할. 필수 !
 	public int hashCode() {
 		return Objects.hash(studDep, studName, studNo);
 	}
-
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
