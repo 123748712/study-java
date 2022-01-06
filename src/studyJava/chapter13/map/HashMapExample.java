@@ -20,6 +20,7 @@ public class HashMapExample {
 		 */
 		
 		HashMap<String, Integer> map = new HashMap<String, Integer>(); // key는 String, value는 Integer
+		// HashMap의 키로 사용할 객체는 hashCode() 와 equals 메소드 재정의해야 한다.
 		
 		map.put("신용권", 85); // put 으로 데이터를 저장할 수 있다.
 		map.put("홍길동", 90); // 하나하나가 Map.Entry 다.
