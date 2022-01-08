@@ -1,3 +1,5 @@
+package studyJava.chapter15.memo;
+
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.DriverManager;
@@ -40,7 +42,12 @@ public static void main(String[] args) throws Exception{
 					vo.setContents(contents);
 					dao.upDateMemo(vo);
 					break;
-
+				case 2:
+					System.out.print("삭제할 번호를 입력하세요 : ");
+					
+					int deleteNo = Integer.parseInt(scanner.nextLine());
+					dao.deleteMemo(deleteNo);
+					break;
 				default:
 					break;
 				}
